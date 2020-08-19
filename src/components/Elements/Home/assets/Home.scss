@@ -1,0 +1,121 @@
+@import '../../../../App.scss';
+
+
+
+.Home-element {
+	margin-top: 200px;
+
+	.left-content {
+		h1 {
+			font-size: 70px;
+			font-weight: bold;
+			color: #252525;
+		}
+
+		p {
+			margin-top: 46px;
+			font-size: 21px;
+			color: #707070;
+			line-height: 30px;
+		}
+
+		button {
+			-webkit-border-radius: 28px;
+			-moz-border-radius: 28px;
+			border-radius: 28px;
+			background-color: #2467c0;
+			width: 199px;
+			height: 56px;
+			border: none;
+			box-shadow: none;
+			font-weight: bold;
+			font-size: 18px;
+			margin-top: 57px;
+
+			&:hover {
+				background-color: #2467c0d1;
+			}
+		}
+	}
+
+	.bg-svg {
+		img {
+			position: absolute;
+			top: 0;
+			right: 0;
+			z-index: -1;
+		}
+	}
+
+	.home-img {
+		width: 740px;
+	}
+}
+
+@media(max-width:1319px) {
+	.Home-element {
+		.home-img {
+			width: auto;
+		}
+	}
+}
+
+@media (max-width:1190px) {
+	.Home-element {
+		margin-top: 100px;
+		.left-content {
+			button {
+				margin-top: 0;
+			}
+	
+			h1 {
+				font-size: 40px;
+				font-weight: bold;
+				color: #252525;
+			}
+			p{
+				font-size: 16px;
+				margin-top: 5px;
+			}
+		}
+	}
+
+}
+
+@media(max-width:768px) {
+	.Home-element {
+		.bg-svg {
+			img {
+				display: none;
+			}
+		}
+		.left-content {
+			button {
+				margin-top: 0;
+				font-size: 16px;
+				width: 160px;
+				height: 45px
+			}
+	
+			h1 {
+				font-size: 30px;
+				font-weight: bold;
+				color: #252525;
+			}
+		}
+	}
+	
+}
+@media(max-width:767px) {
+	.Home-element {
+		margin-top: 30px;
+		.col-md-5{
+			order: 2;
+			text-align: center;
+			.left-content{
+				margin-top: 30px;
+			}
+		}
+	}
+	
+}
