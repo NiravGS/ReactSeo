@@ -13,14 +13,14 @@ function AwesomeSection() {
                 <Row>
                     <Col md={6}>
                         <div className="box-main">
-                            <div className="left">
-                                <div>
+                            <div className="left-box">
+                                <div className="box left">
 
                                 </div>
                             </div>
-                            <div className="right">
-                                <div></div>
-                                <div></div>
+                            <div className="right-box">
+                                <div className="box up"></div>
+                                <div className="box down"></div>
                             </div>
                         </div>
                     </Col>
